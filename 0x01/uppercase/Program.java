@@ -1,5 +1,3 @@
-package uppercase;
-
 import uppercase.Character;
 
 public class Program {
