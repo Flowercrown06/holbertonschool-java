@@ -6,7 +6,7 @@ public class EvenNumbers {
                 if (i < 98) {
                     System.out.print(i + ", ");
                 } else {
-                    System.out.print(i);
+                    System.out.print(i+ "\n");
                 }
             }
         }
