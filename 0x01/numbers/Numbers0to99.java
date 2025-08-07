@@ -1,4 +1,3 @@
-package numbers;
 
 public class Numbers0to99 {
     public static void main(String[] args) {
