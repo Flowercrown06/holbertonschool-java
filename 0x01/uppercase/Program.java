@@ -3,11 +3,11 @@ package uppercase;
 public class Program {
     public static void main(String[] args) {
 
-        boolean characterInUppercase1 = Character.isUpper('a');
-        boolean characterInUppercase2 = Character.isUpper('B');
-        boolean characterInUppercase3 = Character.isUpper('d');
-        boolean characterInUppercase4 = Character.isUpper('f');
-        boolean characterInUppercase5 = Character.isUpper('G');
+        boolean characterInUppercase1 = Character.isUpperCase('a');
+        boolean characterInUppercase2 = Character.isUpperCase('B');
+        boolean characterInUppercase3 = Character.isUpperCase('d');
+        boolean characterInUppercase4 = Character.isUpperCase('f');
+        boolean characterInUppercase5 = Character.isUpperCase('G');
 
         System.out.printf("%b\n", characterInUppercase1);
         System.out.printf("%b\n", characterInUppercase2);

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e6d3d1d-a0cf-4fca-ae70-6ab9e80f9aab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/0x03/bookstore/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x03/bookstore/GoldEditionBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x03/bookstore/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x03/bookstore/exceptions/InvalidAuthorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x03/bookstore/exceptions/InvalidBookException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x01/uppercase/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x01/uppercase/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x01/uppercase/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x01/uppercase/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="30wvY8gcLgRU1t7qZXQjK9mKj7O" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EvenNumbers.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Numbers0to99.executor": "Run",
+    "Application.PrintFloatVariable.executor": "Run",
+    "Application.PrintFormattingNumbers.executor": "Run",
+    "Application.PrintIntegerVariable.executor": "Run",
+    "Application.PrintStringConcat.executor": "Run",
+    "Application.PrintStringVariable.executor": "Run",
+    "Application.Program.executor": "Run",
+    "Application.bookstore.Program.executor": "Run",
+    "Application.even.EvenNumbers.executor": "Run",
+    "Application.salary.Program.executor": "Run",
+    "Application.sum.Program.executor": "Run",
+    "Application.uppercase.Program.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/HUAWEI/IdeaProjects/holbertonschool-java"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.bookstore.Program">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="holbertonschool-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program" />
+      <module name="holbertonschool-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bookstore.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bookstore.Program" />
+      <module name="holbertonschool-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bookstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="even.EvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="even.EvenNumbers" />
+      <module name="holbertonschool-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="even.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="salary.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="salary.Program" />
+      <module name="holbertonschool-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="salary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.bookstore.Program" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.salary.Program" />
+        <item itemvalue="Application.Program" />
+        <item itemvalue="Application.even.EvenNumbers" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e6d3d1d-a0cf-4fca-ae70-6ab9e80f9aab" name="Changes" comment="" />
+      <created>1754551495121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754551495121</updated>
+    </task>
+    <servers />
+  </component>
+</project>

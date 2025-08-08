@@ -1,7 +1,7 @@
 package uppercase;
 
 public class Character {
-    public static boolean IsUpper(char c){
+    public static boolean isUpperCase(char c){
         return c >= 'A' && c <= 'Z';
     }
 }
