@@ -16,7 +16,8 @@ public class Program {
         Manager documentationManager = new Manager(4980);
 
         DecimalFormatSymbols symbols = new DecimalFormatSymbols(Locale.GERMANY);
-        DecimalFormat df = new DecimalFormat("#,##0.00", symbols);
+        DecimalFormat df = new DecimalFormat("0.00", symbols);
+        df.setGroupingUsed(false);  // minlik ayırıcı (thousands separator) deaktiv edilir
 
         System.out.printf("Fixed Salary: %s - Total Salary: %s - Bonus Amount: %s\n",
                 df.format(engineeringEmployee1.getFixedSalary()),
