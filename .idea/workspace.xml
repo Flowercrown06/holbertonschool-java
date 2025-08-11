@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8e6d3d1d-a0cf-4fca-ae70-6ab9e80f9aab" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x01/sum/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x01/sum/Number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x01/sum/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x01/sum/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x03/salary/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x03/salary/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x03/salary/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x03/salary/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/holbertonschool-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/holbertonschool-java.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,31 +36,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EvenNumbers.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Numbers0to99.executor": "Run",
-    "Application.PrintFloatVariable.executor": "Run",
-    "Application.PrintFormattingNumbers.executor": "Run",
-    "Application.PrintIntegerVariable.executor": "Run",
-    "Application.PrintStringConcat.executor": "Run",
-    "Application.PrintStringVariable.executor": "Run",
-    "Application.Program.executor": "Run",
-    "Application.basic_account.Program.executor": "Run",
-    "Application.bookstore.Program.executor": "Run",
-    "Application.even.EvenNumbers.executor": "Run",
-    "Application.salary.Program.executor": "Run",
-    "Application.sum.Program.executor": "Run",
-    "Application.uppercase.Program.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/HUAWEI/IdeaProjects/holbertonschool-java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EvenNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Numbers0to99.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintFloatVariable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintFormattingNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintIntegerVariable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintStringConcat.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintStringVariable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.basic_account.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bookstore.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.even.EvenNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.salary.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sum.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.uppercase.Program.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HUAWEI/IdeaProjects/holbertonschool-java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Program">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
