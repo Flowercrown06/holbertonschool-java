@@ -26,14 +26,14 @@ public class BasicBankAccount {
     }
 
     public void deposit(double value) throws InvalidOperationException {
-        if(value>=0){
+        if(value>0){
             balance+=value;
         }else{
             throw new InvalidOperationException("Deposit amount must be greater than 0");
         }
     }
     public void withdraw(double value) throws InvalidOperationException {
-        if (value <= 0) {
+        if (value < 0) {
             throw new InvalidOperationException("Withdrawal amount must be greater than 0");
         }
         if (value > balance) {
