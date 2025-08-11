@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e6d3d1d-a0cf-4fca-ae70-6ab9e80f9aab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/0x03/bookstore/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x03/bookstore/GoldEditionBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x03/bookstore/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x03/bookstore/exceptions/InvalidAuthorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x03/bookstore/exceptions/InvalidBookException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x01/uppercase/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x01/uppercase/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x01/uppercase/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x01/uppercase/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x03/basic_account/BasicBankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x03/basic_account/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x03/basic_account/exceptions/InvalidOperationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x01/sum/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x01/sum/Number.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,7 @@
     "Application.PrintStringConcat.executor": "Run",
     "Application.PrintStringVariable.executor": "Run",
     "Application.Program.executor": "Run",
+    "Application.basic_account.Program.executor": "Run",
     "Application.bookstore.Program.executor": "Run",
     "Application.even.EvenNumbers.executor": "Run",
     "Application.salary.Program.executor": "Run",
@@ -63,7 +60,7 @@
     "last_opened_file_path": "C:/Users/HUAWEI/IdeaProjects/holbertonschool-java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.bookstore.Program">
+  <component name="RunManager" selected="Application.basic_account.Program">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="holbertonschool-java" />
@@ -71,9 +68,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Program" />
+    <configuration name="basic_account.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_account.Program" />
       <module name="holbertonschool-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,19 +87,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bookstore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="even.EvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="even.EvenNumbers" />
-      <module name="holbertonschool-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="even.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sum.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sum.Program" />
+      <module name="holbertonschool-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.basic_account.Program" />
+        <item itemvalue="Application.sum.Program" />
         <item itemvalue="Application.bookstore.Program" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.salary.Program" />
-        <item itemvalue="Application.Program" />
-        <item itemvalue="Application.even.EvenNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -136,5 +139,16 @@
       <updated>1754551495121</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/0x03/basic_account/Program.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
