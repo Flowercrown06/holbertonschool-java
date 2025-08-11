@@ -1,4 +1,3 @@
-package sum;
 public class Program {
     public static void main(String[] args) {
         System.out.printf("%d\n", Number.DoSum(24, 32));
