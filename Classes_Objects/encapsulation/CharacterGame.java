@@ -1,4 +1,4 @@
-package encapsulation;
+
 
 public class CharacterGame {
     private int currentHealth;
