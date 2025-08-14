@@ -1,4 +1,4 @@
-package methods;
+
 public class CharacterGame {
     private int currentHealth;
     private String name;
@@ -8,8 +8,13 @@ public class CharacterGame {
     }
 
     public void setCurrentHealth(int currentHealth) {
-        this.currentHealth = currentHealth;
-    }
+        if (currentHealth < 0) {
+            this.currentHealth = 0;
+        } else if (currentHealth > 100) {
+            this.currentHealth = 100;
+        } else {
+            this.currentHealth = currentHealth;
+        }    }
 
     public String getName() {
         return name;
@@ -19,12 +24,20 @@ public class CharacterGame {
         this.name = name;
     }
 
-    public void takeDamage(int damageAmount){
-        currentHealth-=damageAmount;
+    public void takeDamage(int damageAmount) {
+        if (damageAmount < 0) return;
+        currentHealth -= damageAmount;
+        if (currentHealth < 0) {
+            currentHealth = 0;
+        }
     }
 
     public void receiveHealing(int healingAmount){
-        currentHealth+=healingAmount;
+        if (healingAmount < 0) return;
+        currentHealth += healingAmount;
+        if (currentHealth > 100) {
+            currentHealth = 100;
+        }
     }
 
 }
