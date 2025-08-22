@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="985db1b2-278a-4f03-aa33-4d1b9636617c" name="Changes" comment="">
+    <list default="true" id="2d130c08-4d17-4d40-8e50-bce1dedc6313" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../0x01/sum/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x01/sum/Number.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../0x01/sum/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x01/sum/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookstore/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bookstore/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookstore/GoldEditionBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bookstore/GoldEditionBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookstore/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bookstore/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookstore/exceptions/InvalidAuthorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bookstore/exceptions/InvalidAuthorException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookstore/exceptions/InvalidBookException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bookstore/exceptions/InvalidBookException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0x03/bookstore/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x03/bookstore/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0x03/bookstore/GoldEditionBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x03/bookstore/GoldEditionBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0x03/bookstore/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x03/bookstore/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0x03/bookstore/exceptions/InvalidAuthorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x03/bookstore/exceptions/InvalidAuthorException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0x03/bookstore/exceptions/InvalidBookException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x03/bookstore/exceptions/InvalidBookException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0x03/salary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x03/salary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../status/CharacterGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../status/CharacterGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/ItemOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/ItemOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/products/Dvd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/products/Dvd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/products/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../holbertonschool-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../holbertonschool-java.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,28 +31,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="318tywD79gjEnYvN6dmjfWngP7o" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="31Gx8jfKcz8mPJdmwGxN7Jwaz0i" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HUAWEI/IdeaProjects/holbertonschool-java/0x03/salary&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Program.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/HUAWEI/IdeaProjects/holbertonschool-java/Classes_Objects/methods"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Program" />
+      <module name="methods" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -62,11 +66,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="985db1b2-278a-4f03-aa33-4d1b9636617c" name="Changes" comment="" />
-      <created>1754917785412</created>
+      <changelist id="2d130c08-4d17-4d40-8e50-bce1dedc6313" name="Changes" comment="" />
+      <created>1755164052170</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1754917785412</updated>
+      <updated>1755164052170</updated>
     </task>
     <servers />
   </component>
