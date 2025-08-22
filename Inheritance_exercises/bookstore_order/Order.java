@@ -11,7 +11,7 @@ public class Order {
     public double calculateTotal() {
         double total = 0;
         for (ItemOrder item : items) {
-            total += item.getQuantity() * item.getProduct().getNetPrice();
+            total += item.quantity * item.product.getNetPrice();
         }
         total -= total * (discountPercentage / 100);
         return total;
