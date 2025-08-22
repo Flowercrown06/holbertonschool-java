@@ -1,5 +1,3 @@
-import com.sun.source.tree.BreakTree;
-
 public class Order {
      double totalPrice = 0;
      double discount;
