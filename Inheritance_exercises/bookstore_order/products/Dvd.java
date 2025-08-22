@@ -15,6 +15,7 @@ public class Dvd extends Products {
 
     @Override
     public double getNetPrice() {
-        return getGrossPrice()  * 1.2;
+
+        return grossPrice * 1.2;
     }
 }
