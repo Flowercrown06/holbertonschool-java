@@ -2,9 +2,9 @@ package products;
 
 
 public class Book extends Products {
-    int pages;
-    String author;
-    int edition;
+    public int pages;
+    public String author;
+    public int edition;
 
 
     public Book(String title, int year, String country, double grossPrice, int pages, String author, int edition){

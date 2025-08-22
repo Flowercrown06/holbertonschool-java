@@ -1,18 +1,25 @@
-ppublic class Order {
-    double discountPercentage;
-    ItemOrder[] items;
+import com.sun.source.tree.BreakTree;
+
+public class Order {
+     double totalPrice = 0;
+     double discount;
+     double discountPercentage;
+     ItemOrder[] items;
+
     public Order(double discountPercentage, ItemOrder[] items){
         this.discountPercentage = discountPercentage;
         this.items = items;
+        this.discount = totalPrice / 100d * discountPercentage;
+        setTotalPrice(items);
     }
 
-    public double calculateTotal() {
-        double total = 0;
-        for (ItemOrder item : items) {
-            total += item.quantity * item.product.getNetPrice();
+    public void setTotalPrice(ItemOrder[] items) {
+        for (ItemOrder item: items) {
+            this.totalPrice += item.quantity * item.product.getNetPrice();
         }
-        total -= total * (discountPercentage / 100);
-        return total;
+    }
+    public double calculateTotal() {
+        return totalPrice - discount;
     }
 
     public void presentOrderSummary() {
@@ -29,3 +36,4 @@ ppublic class Order {
         System.out.println("----------------------------");
     }
 }
+

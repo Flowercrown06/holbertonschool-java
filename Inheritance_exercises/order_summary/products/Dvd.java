@@ -1,9 +1,9 @@
 package products;
 
 public class Dvd extends Products {
-    String director;
-    String genre;
-    int duration;
+    public String director;
+    public String genre;
+    public int duration;
 
     public Dvd(String title, int year, String country, double grossPrice, String director, String genre, int duration){
         super(title, year, country, grossPrice);

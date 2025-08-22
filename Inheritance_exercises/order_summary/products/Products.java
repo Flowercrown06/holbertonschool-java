@@ -1,10 +1,10 @@
 package products;
 
 public abstract class Products {
-    String title;
-    int year;
-    String country;
-    double grossPrice;
+    public String title;
+    public int year;
+    public  String country;
+    public double grossPrice;
 
     public abstract double getNetPrice();
 
