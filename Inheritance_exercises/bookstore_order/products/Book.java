@@ -1,9 +1,10 @@
-package bookstore_order.products;
+package products;
 
-public class Book extends Product{
-    private int pages;
-    private String author;
-    private int edition;
+
+public class Book extends Products {
+     int pages;
+     String author;
+     int edition;
 
 
     public Book(String title, int year, String country, double grossPrice, int pages, String author, int edition){
@@ -13,17 +14,6 @@ public class Book extends Product{
         this.edition = edition;
     }
 
-    public int getPages() {
-        return pages;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public int getEdition() {
-        return edition;
-    }
 
     @Override
     public double getNetPrice() {
