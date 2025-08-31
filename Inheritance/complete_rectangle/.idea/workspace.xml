@@ -5,33 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b4d6e86-2ab4-4edb-9b20-c8278c70b377" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GeometricShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../0x01/sum/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x01/sum/Number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../0x01/sum/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x01/sum/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../0x03/bookstore/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x03/bookstore/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../0x03/bookstore/GoldEditionBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x03/bookstore/GoldEditionBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../0x03/bookstore/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x03/bookstore/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../0x03/bookstore/exceptions/InvalidAuthorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x03/bookstore/exceptions/InvalidAuthorException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../0x03/bookstore/exceptions/InvalidBookException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x03/bookstore/exceptions/InvalidBookException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../0x03/salary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x03/salary/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Classes_Objects/consistency/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Classes_Objects/consistency/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inheritance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inheritance/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inheritance/inheritance.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rectangle/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rectangle/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rectangle/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rectangle/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rectangle/rectangle.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/ItemOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/ItemOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/products/Dvd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/products/Dvd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Inheritance_exercises/bookstore_order/products/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../holbertonschool-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../holbertonschool-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeometricShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeometricShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/complete_rectangle.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,24 +22,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="31VI709ZsGVELY6o0uyuSTqrZPm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Program.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/HUAWEI/IdeaProjects/holbertonschool-java/Inheritance/complete_rectangle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HUAWEI/IdeaProjects/holbertonschool-java/Inheritance/complete_rectangle&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="complete_rectangle.Program" />

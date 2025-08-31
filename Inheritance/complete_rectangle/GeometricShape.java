@@ -1,4 +1,4 @@
-package complete_rectangle;
+
 
 public class GeometricShape {
     public double area(){
