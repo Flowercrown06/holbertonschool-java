@@ -1,32 +1,45 @@
-package special_account;
-
-import basic_account.exceptions.InvalidOperationException;
+import exceptions.InvalidOperationException;
 
 public class FeeBasedBankAccount extends BasicBankAccount {
-    private int transactionCount;
 
-    public FeeBasedBankAccount(String accountNumber, double annualInterestRate) {
+    FeeBasedBankAccount(String accountNumber, double annualInterestRate) {
         super(accountNumber, annualInterestRate);
-        this.transactionCount = transactionCount;
     }
 
-    public int getTransactionCount() {
-        return transactionCount;
+    private int transactionCount;
+
+    @Override
+    public void withdraw(double value) throws InvalidOperationException {
+
+        balance -= 0.1d;
+        if (value <= 0d) {
+            throw new InvalidOperationException(
+                    "Withdrawal amount must be greater than 0"
+            );
+        }
+
+        if (balance < value) {
+            throw new InvalidOperationException(
+                    "Withdrawal amount must be less than the current balance"
+            );
+        }
+        balance -= value;
     }
 
     @Override
     public void deposit(double value) throws InvalidOperationException {
-        super.deposit(value);
-        transactionCount++;
-        double newBalance= getBalance() - 0.10;
-        setBalance(newBalance);
+
+        balance -= 0.1d;
+        if (value <= 0d) {
+            throw new InvalidOperationException(
+                    "Deposit amount must be greater than 0"
+            );
+        }
+        balance += value;
+
     }
 
-    @Override
-    public void withdraw(double value) throws InvalidOperationException {
-        super.withdraw(value);
-        transactionCount++;
-        double newBalance= getBalance() - 0.10;
-        setBalance(newBalance);
+    public int getTransactionCount() {
+        return transactionCount;
     }
 }

@@ -1,66 +1,74 @@
-package special_account;
-
-import basic_account.exceptions.InvalidOperationException;
+import exceptions.InvalidOperationException;
 
 public class BasicBankAccount {
-    private String accountNumber;
-    private double balance;
-    private double annualInterestRate;
 
-    public BasicBankAccount(String accountNumber, double annualInterestRate) {
-        this.accountNumber = accountNumber;
-        this.annualInterestRate = annualInterestRate;
-        this.balance= 0.0;
-    }
+    String acountNumber;
+    double balance;
+    double annualInterestRate;
 
-    public String getAccountNumber() {
-        return accountNumber;
+    public double getAnnualInterestRate() {
+        return annualInterestRate;
     }
 
     public double getBalance() {
         return balance;
     }
 
-    public void setBalance(double balance) {
-        this.balance = balance;
+    public String getAccountNumber() {
+        return acountNumber;
     }
 
-    public double getAnnualInterestRate() {
-        return annualInterestRate;
+    BasicBankAccount(String accountNumber, double annualInterestRate) {
+        this.acountNumber = accountNumber;
+        this.annualInterestRate = annualInterestRate;
+        this.balance = 0d;
     }
 
     public void deposit(double value) throws InvalidOperationException {
-        if(value>0){
-            balance+=value;
-        }else{
-            throw new InvalidOperationException("Deposit amount must be greater than 0");
+        if (value <= 0d) {
+            throw new InvalidOperationException(
+                    "Deposit amount must be greater than 0"
+            );
         }
+
+        balance += value;
     }
+
     public void withdraw(double value) throws InvalidOperationException {
-        if (value < 0) {
-            throw new InvalidOperationException("Withdrawal amount must be greater than 0");
+        if (value <= 0d) {
+            throw new InvalidOperationException(
+                    "Withdrawal amount must be greater than 0"
+            );
         }
-        if (value > balance) {
-            throw new InvalidOperationException("Withdrawal amount must be less than the current balance");
+
+        if (balance < value) {
+            throw new InvalidOperationException(
+                    "Withdrawal amount must be less than the current balance"
+            );
         }
+
         balance -= value;
     }
 
-    public double calculateMonthlyFee(){
-        return Math.min(10.00, balance * 0.10);
-    }
-
-    public double calculateMonthlyInterest(){
-        if (balance < 0) {
-            return 0.0;
+    public double calculateMonthlyFee() {
+        if (balance * 0.1d < 10d) {
+            return balance * 0.1d;
         }
-        double monthlyInterestRate = annualInterestRate / 12 / 100;
-        return balance * monthlyInterestRate;
-    }
-    public void applyMonthlyUpdate(){
-        balance= balance - calculateMonthlyFee() + calculateMonthlyInterest();
+        else {
+            return 10d;
+        }
     }
 
+    public double calculateMonthlyInterest() {
+        if (balance < 0) {
+            return 0d;
+        }
+
+        return balance * (annualInterestRate / 100) / 12;
+    }
+
+    public void applyMonthlyUpdate() {
+        balance = balance - calculateMonthlyFee() + calculateMonthlyInterest();
+    }
 
 }
-
