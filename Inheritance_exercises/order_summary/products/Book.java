@@ -15,7 +15,6 @@ public class Book extends Products {
     }
 
 
-    @Override
     public double getNetPrice() {
         return grossPrice * 1.15;
     }

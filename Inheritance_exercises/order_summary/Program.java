@@ -32,7 +32,7 @@ public class Program {
 
         Order order2 = new Order(10, itemsOrder2);
 
-        order2.presentOrderSummary();
+        order2.modifiedPresentOrderSummary();
 
         // Order 3
         ItemOrder[] itemsOrder3 = new ItemOrder[] {
@@ -58,4 +58,4 @@ public class Program {
 
         order4.presentOrderSummary();
     }
-}
+}}
