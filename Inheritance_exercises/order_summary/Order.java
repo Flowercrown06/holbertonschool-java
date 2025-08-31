@@ -5,10 +5,10 @@ public class Order {
      ItemOrder[] items;
 
     public Order(double discountPercentage, ItemOrder[] items){
-        this.discountPercentage = discountPercentage;
         this.items = items;
-        this.discount = totalPrice / 100d * discountPercentage;
+        this.discountPercentage = discountPercentage;
         setTotalPrice(items);
+        this.discount = totalPrice / 100d * discountPercentage;
     }
 
     public void setTotalPrice(ItemOrder[] items) {
