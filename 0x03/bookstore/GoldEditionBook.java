@@ -1,14 +1,13 @@
+import exceptions.InvalidAuthorException;
+import exceptions.InvalidBookException;
 
+public class GoldEditionBook extends Book{
 
-import bookstore.exceptions.InvalidBookException;
-
-public class GoldEditionBook extends Book {
-    public GoldEditionBook(String title, String author, double price) {
+    GoldEditionBook(String title, String author, double price) throws InvalidBookException, InvalidAuthorException, InvalidBookException, InvalidAuthorException {
         super(title, author, price);
     }
 
-    @Override
     public double getPrice() {
-        return super.getPrice()*1.3;
+        return this.price * 0.3d + this.price;
     }
 }
