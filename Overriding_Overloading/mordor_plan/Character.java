@@ -25,15 +25,25 @@ public class Character {
         }
     }
 
-    @Override
-    public String toString() {
-        return happinessPoints + " - " + getCurrentMood().getClass().getSimpleName();
-    }
+//    @Override
+//    public String toString() {
+//        return happinessPoints + " - " + getCurrentMood().getClass().getSimpleName();
+//    }
 //    @Override
 //    public String toString() {
 //        return String.format("%d - %s", happinessPoints, getCurrentMood().toString());
 //    }
 //
+
+    @Override
+    public String toString() {
+        String moodName = getCurrentMood().getClass().getSimpleName();
+        if(moodName.equals("VeryHappy")) {
+            moodName = "Very Happy";
+        }
+        return happinessPoints + " - " + moodName;
+    }
+
 }
 
 
