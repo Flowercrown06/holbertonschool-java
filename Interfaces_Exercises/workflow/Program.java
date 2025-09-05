@@ -1,9 +1,4 @@
 
-import workflow.activity.EncodeVideo;
-import workflow.activity.ModifyVideoStatus;
-import workflow.activity.SendEmail;
-import workflow.activity.UploadVideo;
-
 public class Program {
     public static void main(String[] args) {
         WorkflowMachine workflowMachine = new WorkflowMachine();
