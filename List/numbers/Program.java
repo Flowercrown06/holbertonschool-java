@@ -2,7 +2,7 @@
 import java.util.*;
 
 public class Program {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         List<Integer> numbers = new ArrayList<Integer>();
 
         ManipulateArrayNumbers.addNumber(numbers, 1);
