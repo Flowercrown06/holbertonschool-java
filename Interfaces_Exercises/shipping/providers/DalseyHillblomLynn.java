@@ -3,7 +3,8 @@ package providers;
 public class DalseyHillblomLynn implements  ShippingProvider{
     @Override
     public Shipping calculateShipping(double weight, double value) {
-        if( weight / 1000.0 >5) return new Shipping((value*0.12), getShippingProviderType());
+        double weightInKg = weight / 1000.0;
+        if(weightInKg > 5) return new Shipping((value*0.12), getShippingProviderType());
         return new Shipping(value*0.04, getShippingProviderType());
     }
 
