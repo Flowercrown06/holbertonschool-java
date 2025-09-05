@@ -1,4 +1,5 @@
 
+import java.util.*;
 
 public class Program {
     public static void main(String[] args) {
@@ -23,7 +24,7 @@ public class Program {
         System.out.println(numbers);
 
         try {
-            ManipularArrayNumeros.removeNumber(numbers, 9);
+            ManipularArrayNumbers.removeNumber(numbers, 9);
         } catch(Exception ex) {
             System.out.println(ex.getMessage());
         }
