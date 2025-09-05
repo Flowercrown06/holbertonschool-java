@@ -24,7 +24,7 @@ public class Program {
         System.out.println(numbers);
 
         try {
-            ManipularArrayNumbers.removeNumber(numbers, 9);
+            ManipulateArrayNumbers.removeNumber(numbers, 9);
         } catch(Exception ex) {
             System.out.println(ex.getMessage());
         }
