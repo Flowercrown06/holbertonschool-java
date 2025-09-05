@@ -1,6 +1,6 @@
 package food;
 public class Lembas extends Food{
-    public Lembas(int happinessPoints) {
+    public Lembas() {
         super(3);
     }
 }

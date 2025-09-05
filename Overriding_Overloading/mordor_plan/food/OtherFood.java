@@ -1,7 +1,7 @@
 package food;
 
 public class OtherFood extends Food {
-    public OtherFood(int happinessPoints) {
+    public OtherFood() {
         super(-1);
     }
 }

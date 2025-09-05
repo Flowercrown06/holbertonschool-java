@@ -1,6 +1,6 @@
 package food;
 public class Cram extends Food{
-    public Cram(int happinessPoints) {
+    public Cram() {
         super(2);
     }
 }

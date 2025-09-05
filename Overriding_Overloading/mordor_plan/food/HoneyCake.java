@@ -1,6 +1,6 @@
 package food;
 public class HoneyCake extends Food{
-    public HoneyCake(int happinessPoints) {
+    public HoneyCake() {
         super(5);
     }
 }
