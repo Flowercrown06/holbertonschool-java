@@ -1,3 +1,4 @@
+import providers.Shipping;
 import providers.ShippingProvider;
 
 
