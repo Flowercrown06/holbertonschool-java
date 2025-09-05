@@ -1,4 +1,7 @@
 package shipping.providers;
 
-public class ShippingProvider {
+public interface ShippingProvider {
+    public Shipping calculateShipping(double weight, double value);
+    ShippingProviderType getShippingProviderType();
+
 }

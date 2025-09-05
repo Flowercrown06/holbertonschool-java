@@ -1,4 +1,7 @@
 package shipping.providers;
 
-public class ShippingProviderType {
+public enum ShippingProviderType {
+    FEDEX,
+    UPS,
+    DHL
 }
