@@ -1,5 +1,6 @@
 
-import List;
+import java.util.List;
+
 
 public class ManipulateArrayNumbers {
     public static int findNumberPosition(List<Integer> numbers, int target){
