@@ -1,6 +1,5 @@
-
-
-import workflow.activity.Activity;
+import activity.*;
+import java.util.ArrayList;
 
 public class WorkflowMachine {
     public void execute(Workflow workflow){
