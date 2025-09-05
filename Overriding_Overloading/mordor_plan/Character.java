@@ -25,13 +25,15 @@ public class Character {
         }
     }
 
-//    @Override
-//    public String toString() {
-//        return happinessPoints + " - " + getCurrentMood().getClass().getSimpleName();
-//    }
     @Override
     public String toString() {
-        return String.format("%d - %s", happinessPoints, getCurrentMood().toString());
+        return happinessPoints + " - " + getCurrentMood().getClass().getSimpleName();
     }
+//    @Override
+//    public String toString() {
+//        return String.format("%d - %s", happinessPoints, getCurrentMood().toString());
+//    }
+//
 }
+
 
