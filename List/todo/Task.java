@@ -34,7 +34,7 @@ public class Task {
         this.identifier = identifier;
     }
 
-    public void modifyDescription(String description){
+    public void modifyDescription(String description)throws IllegalArgumentException{
         if(description == null || description.trim().isEmpty()){
             throw new IllegalArgumentException("Invalid task description");
         }
