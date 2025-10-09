@@ -1,6 +1,5 @@
-
 public class Program {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         TodoList todo = new TodoList();
 
         todo.addTask(new Task("Read Lambda class content", 1));

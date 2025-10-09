@@ -11,6 +11,12 @@
       <sourceFolder url="file://$MODULE_DIR$/0x02" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Classes_Objects" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Inheritance" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interfaces" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interfaces_Exercises" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/List" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Overriding_Overloading" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PrimitiveTypes_Wrapper" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Relationships" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
