@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Overriding_Overloading" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PrimitiveTypes_Wrapper" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Relationships" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Enum" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
