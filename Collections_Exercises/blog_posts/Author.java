@@ -3,8 +3,8 @@ import java.util.Objects;
 
 public class Author implements Comparable<Author> {
 
-    String name;
-    String surname;
+    public String name;
+    public String surname;
 
     public Author(String name, String surname) {
         setName(name);
