@@ -29,8 +29,7 @@ public class Author implements Comparable<Author> {
 
     @Override
     public String toString() {
-        String string = String.format("%s %s", getName(), getSurname());
-        return string;
+        return String.format("%s %s", getName(), getSurname());
     }
 
     @Override
