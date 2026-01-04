@@ -38,5 +38,4 @@ public class Product {
     public void setMarkupPercentage(Double markupPercentage) {
         this.markupPercentage = markupPercentage;
     }
-}{
 }
