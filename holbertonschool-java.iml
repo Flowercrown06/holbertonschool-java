@@ -18,6 +18,10 @@
       <sourceFolder url="file://$MODULE_DIR$/PrimitiveTypes_Wrapper" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Relationships" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Enum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Collections_Exercises" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Set_Map" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Generics" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Generics_Exercises" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
