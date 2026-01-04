@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e6d3d1d-a0cf-4fca-ae70-6ab9e80f9aab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Enum/bank/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Enum/bank/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List/todo/todo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generics/media/media.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generics_Exercises/warehouse/Electronic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generics_Exercises/warehouse/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generics_Exercises/warehouse/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generics_Exercises/warehouse/Storable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generics_Exercises/warehouse/Warehouse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inheritance/complete_rectangle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/complete_rectangle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collections_Exercises/blog_posts/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections_Exercises/blog_posts/Author.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/holbertonschool-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/holbertonschool-java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Flowercrown06&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Flowercrown06/holbertonschool-java.git&quot;,
+    &quot;accountId&quot;: &quot;242a7183-c02b-49a2-ad09-83382bd5597a&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -72,9 +87,9 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -157,6 +172,8 @@
       <updated>1754551495121</updated>
       <workItem from="1760009798232" duration="424000" />
       <workItem from="1760011209446" duration="685000" />
+      <workItem from="1761808574635" duration="851000" />
+      <workItem from="1765212125152" duration="8000" />
     </task>
     <servers />
   </component>
