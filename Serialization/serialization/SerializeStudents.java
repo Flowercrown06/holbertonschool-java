@@ -20,7 +20,6 @@ public class SerializeStudents<T> {
         }
     }
 
-    @SuppressWarnings("unchecked")
     public List<T> deserialize() {
         try (ObjectInputStream ois =
                      new ObjectInputStream(new FileInputStream(fileName))) {
