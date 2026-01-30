@@ -4,7 +4,7 @@ public class Student implements Serializable {
 
     private int age;
     private String name;
-    private transient String password; // NOT serialized
+    private transient String password;
 
     public Student(int age, String name, String password) {
         this.age = age;
