@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.List;
 
-public class SerializeStudents {
+public class SerializeStudents<T> {
 
     private String fileName;
 
@@ -9,7 +9,7 @@ public class SerializeStudents {
         this.fileName = fileName;
     }
 
-    public void serialize(List list) {
+    public void serialize(List<T> list) {
         try (ObjectOutputStream oos =
                      new ObjectOutputStream(new FileOutputStream(fileName))) {
 
@@ -20,11 +20,11 @@ public class SerializeStudents {
         }
     }
 
-    public List deserialize() {
+    public List<T> deserialize() {
         try (ObjectInputStream ois =
                      new ObjectInputStream(new FileInputStream(fileName))) {
 
-            return (List) ois.readObject();
+            return (List) ois.readObject(); // unchecked cast
 
         } catch (Exception e) {
             System.out.println("Unable to deserialize");
