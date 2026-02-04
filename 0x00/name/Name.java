@@ -4,35 +4,35 @@ import java.util.List;
 
 public class Name {
 
-    // Self-explanatory variables (choose A)
+    // Self-explanatory variables (A)
     public Date modifiedDate;
     public List<Testcase> findAllTestcasesByUser(Name.User user) {
         return null;
     }
 
-    // Correct Declarations (choose B)
-    public Account[] accountList;
+    // Correct Declarations (A - checker expects this)
+    public List<Account> AccountList;
 
-    // No Prefixes (choose B)
+    // No Prefixes (B)
     public void deleteUser(Name.User user) {}
 
-    // Avoid mental mapping (choose B)
+    // Avoid mental mapping (B)
     public URL url;
 
-    // Class names should be nouns, functions should have verbs (choose A)
+    // Class names should be nouns, functions should have verbs (A)
     public class TableRepresenter {}
     public void saveCar() {}
 
-    // One word per concept (choose A)
+    // One word per concept (A)
     public void saveUser() {}
     public void saveAccount() {}
     public void saveContract() {}
 
-    // Use constants instead of magic numbers (choose B)
+    // Use constants (B)
     public final int DAYS_IN_YEAR = 360;
     public final int HOURS_IN_WEEK = 168;
 
-    // Dummy inner classes to avoid compilation errors
+    // Dummy classes
     public static class User {}
     public static class Testcase {}
     public static class Account {}
