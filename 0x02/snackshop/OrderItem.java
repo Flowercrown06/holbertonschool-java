@@ -1,7 +1,4 @@
 
-
-import org.example.snackshop.enums.OrderItemType;
-
 public class OrderItem {
     private OrderItemType type;
     private String name;
