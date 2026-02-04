@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f9e8d949-e722-4be1-a3e1-87eb262f435e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project Financial Demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project Financial Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project Financial Demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project Financial Demo/src/main/java/com/techcamps/financial/FinancialMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project Financial Demo/src/main/java/com/techcamps/financial/FinancialMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-maven/financial-api/pom/xml.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-maven/financial-api/src/main/java/FinancialMain.java.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-maven/financial-api/target/financial-api-0.0.1-SNAPSHOT-jar-with-dependencies.jar.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-maven/financial-api/target/financial-api-0.0.1-SNAPSHOT.jar.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../holbertonschool-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../holbertonschool-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java_jpa_hibernate_mapping/course-management-api/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_jpa_hibernate_mapping/course-management-api/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="39CywceacxG1oBsyXzn0wo4WTsl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/HUAWEI/IdeaProjects/holbertonschool-java/0x02/snackshop"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9e8d949-e722-4be1-a3e1-87eb262f435e" name="Changes" comment="" />
+      <created>1770214586452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770214586452</updated>
+    </task>
+    <servers />
+  </component>
+</project>
