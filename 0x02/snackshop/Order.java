@@ -1,8 +1,8 @@
-import java.util.LinkedHashSet;
+import java.util.HashSet;
 
 public class Order {
-    private LinkedHashSet<OrderItem> itemsInBox = new LinkedHashSet<>();
-    private LinkedHashSet<OrderItem> itemsOutOfBox = new LinkedHashSet<>();
+    private HashSet<OrderItem> itemsInBox = new HashSet<>();
+    private HashSet<OrderItem> itemsOutOfBox = new HashSet<>();
 
     public void addItemInBox(OrderItem item) {
         itemsInBox.add(item);
